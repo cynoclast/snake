@@ -10,7 +10,6 @@ public interface SnakeGame {
      * spaces containing the snake should appear as an 'X'.
      * @return String representing the snake game board.
      */
-
     String getGameBoard();
 
     /**
