@@ -162,8 +162,8 @@ public class MySnakeGame implements SnakeGame, AdvancedSnakeGame {
                 terminal.clearScreen();
                 terminal.flush();
                 writeStringToTerminal(terminal, game.getGameBoard() + "\n");
-                Thread.sleep(100);
                 terminal.flush();
+                Thread.sleep(100);
 
                 if (game.snakeHitSelf()) {
                     gameOver = true;
