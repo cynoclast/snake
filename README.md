@@ -6,7 +6,7 @@
 
 ## Run:
 
-`java -classpath ./build/libs/snake-1.0.jar com.vevo.hiring.snake.MySnakeGame`
+`java -classpath ./build/libs/snake.jar com.vevo.hiring.snake.MySnakeGame`
 
 ## One-liner:
 
